@@ -1,0 +1,136 @@
+   body{
+  font-family: "Montserrat";
+}
+ #title{ /*   way to define sec id    */
+  background-color:#ff4c68;
+  color:#fff;
+}
+/*its when we change the text apperance in para acc to device  */
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+h1{
+  font-family:"Montserrat-black";
+  font-size: 4rem;
+  line-height: 1.5;
+  font-weight: bolder;
+
+}
+h2{
+  font-family:" Montserrat-light";
+  font-size:3rem;
+  font-weight:bold;
+  line-height: 1.5;
+}
+h3{
+  font-family:" ubuntu-bold";
+  font-size:2rem;
+  font-weight:bold;
+  line-height: 1.5;
+
+}
+p{
+  color: #8f8f8f;
+}
+/* navigation bar */
+.navbar{
+  padding-bottom: 4.5em;
+}
+.navbar-brand{
+  font-family:"ubuntu";
+  font-weight: bold;
+  font-style: 2.5rem;
+ }
+.navbar-item{
+  padding: 0 15%;
+  font-family: "Montserrat-light";
+}
+.download-button{
+   margin:1rem 0.5%;
+}
+.title-image{
+  width: 30%;
+transform: rotate(25deg);  /*way to transform img ya rotatte it */
+position: absolute;
+
+}
+/* by doing this we can change width whichis lower than thisS */
+@media (max-width:1020px) {
+  .title-image{
+    position: static;
+    transform: rotate(0);
+
+  }
+
+}
+/* features-sec */
+#features{
+  padding: 4% 15%;
+  background-color: #fff;
+  position: relative;
+
+
+}
+.features-sec{
+  text-align: center;
+  padding:5%;
+}
+.icons{
+  color:#ef8172;
+  padding: 4%;
+}
+.icons:hover{
+  color: #ff4c68;
+}
+/* testimonials-sec */
+#testimonials{
+  padding: 7% 15%;
+  background-color:#ef8172;
+  text-align: center;
+  color: #fff;
+
+}
+#press{
+  background-color:#ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.testimonial-img{
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+
+}
+.press-img{
+
+  width: 15%;
+  margin: 20px 20px 30px;
+}
+
+/* pricing-sec */
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-column{
+  padding-left: 3% 2%;
+}
+/* cta */
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  color: #fff;
+  padding: 10% 5%;
+}
+.cta-heading{
+  font-size: 3em;
+  padding: 3% 2%;
+}
+#footer{
+  text-align: center;
+  padding: 8% 15%;
+  background-color: #fff;
+}
+.icoons{
+  margin: 20px 10px;
+}
